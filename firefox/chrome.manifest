@@ -1,0 +1,3 @@
+content JIRABlocked content/
+
+overlay chrome://browser/content/browser.xul chrome://JIRABlocked/content/JIRABlocked.xul 
