@@ -19,7 +19,7 @@ var myExtension = {
 
 	onPageLoad: function(aEvent){
 		var doc = aEvent.originalTarget;
-		if(doc.location.href.indexOf("jira.dev.bbc.co.uk/secure/TaskBoard.jspa")>=0){
+		if(doc.location.href.indexOf("/secure/TaskBoard.jspa")>=0){
 			myExtension.findCard(doc.getElementById("gh"));
 		}
 	},

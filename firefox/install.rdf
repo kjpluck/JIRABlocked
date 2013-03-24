@@ -2,21 +2,20 @@
 <RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
 <Description about="urn:mozilla:install-manifest">
 <!-- Required Items -->
-<em:id>JIRABlocked@bbc.co.uk</em:id>
+<em:id>JIRABlocked@kevinpluck.net</em:id>
 <em:name>JIRA Blocked Marker</em:name>
-<em:version>1.1</em:version>
+<em:version>1.2</em:version>
 
 <em:targetApplication>
      <Description>
          <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
          <em:minVersion>1.5</em:minVersion>
-         <em:maxVersion>13.*</em:maxVersion>
+         <em:maxVersion>19.*</em:maxVersion>
      </Description>
 </em:targetApplication>
 
 <!-- Optional Items -->
 <em:creator>Kevin Pluck</em:creator>
 <em:description>Highlights any JIRA tasks with 'BLOCKED' in the title</em:description>
-<em:homepageURL>https://confluence.dev.bbc.co.uk/display/~kevin.pluck/Tips</em:homepageURL>
 </Description>
 </RDF>
